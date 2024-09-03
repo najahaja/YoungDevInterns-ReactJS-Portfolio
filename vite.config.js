@@ -5,5 +5,5 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
 
   plugins: [react()],
-  base:"/YoungDevInterns_ReactJs_Portfolio/", 
+  base:"/YoungDevInterns-ReactJS-Portfolio/", 
 });
