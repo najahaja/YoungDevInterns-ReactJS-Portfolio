@@ -36,7 +36,7 @@ const Contact = () => {
 </div>
 
         <form onSubmit={handleFormSubmit}>
-          <div className="flex flex-col gap-4 md:mt-0 mt-10 md:pt-6 pb-6 pl-10 pr-10 bg-black/70 rounded">
+          <div className="flex flex-col gap-4 md:mt-0 mt-10 md:pt-6 pb-6 md:pl-10 pl-24 pr-10 bg-black/70 rounded">
             <div className="flex gap-4">
               <div className="flex flex-col gap-2">
                 <label htmlFor="firstName">First Name:</label>

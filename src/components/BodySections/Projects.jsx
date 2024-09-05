@@ -39,10 +39,10 @@ const Projects = () => {
             </video>
             {hoveredIndex === index && (
               <div className="card-overlay absolute top-0 left-0 w-full h-full bg-black/50 backdrop-blur-sm flex flex-col items-center justify-center gap-5 p-4">
-                <div className="font-bold text-center">{video.title}</div>
+                <div className="font-bold text-center md:text-lg text-base">{video.title}</div>
                 <div className="links flex flex-col md:flex-row items-center justify-center gap-5">
                   <a
-                    className="card-button p-3 rounded-lg bg-green-600 font-semibold flex gap-2 items-center hover:bg-amber-400 hover:text-black"
+                    className="card-button md:text-lg text-base md:p-3 p-1 rounded-lg bg-green-600 font-semibold flex gap-2 items-center hover:bg-amber-400 hover:text-black"
                     href={video.demo}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -51,7 +51,7 @@ const Projects = () => {
                     Live Demo
                   </a>
                   <a
-                    className="card-button p-3 rounded-lg bg-green-600 font-semibold flex gap-2 items-center hover:bg-amber-400 hover:text-black"
+                    className="card-button md:text-lg text-base md:p-3 p-1 rounded-lg bg-green-600 font-semibold flex gap-2 items-center hover:bg-amber-400 hover:text-black"
                     href={video.source}
                     target="_blank"
                     rel="noopener noreferrer"

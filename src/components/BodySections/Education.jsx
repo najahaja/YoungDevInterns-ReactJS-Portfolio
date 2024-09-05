@@ -59,16 +59,7 @@ const Education = () => {
                   <div className="d-major-text text-base md:text-lg">
                     Artificial Intelligence
                   </div>
-                  <div className="d-major-link text-blue-400">
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title="section under development"
-                    >
-                      Learn more
-                    </a>
-                  </div>
+                 
                 </div>
                 <div className="d-tenure flex flex-col gap-2 bg-black/70 rounded-lg pt-4 pb-4 text-center">
                   <div className="text-xl md:text-2xl font-medium text-amber-300">
@@ -103,16 +94,7 @@ const Education = () => {
                     Major:
                   </div>
                   <div className="d-major-text text-base md:text-lg">Physical Science</div>
-                  <div className="d-major-link text-blue-400">
-                    <a
-                      href="http://"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      title="section under development"
-                    >
-                      Learn more
-                    </a>
-                  </div>
+                  
                 </div>
                 <div className="d-tenure flex flex-col gap-2 bg-black/70 rounded-lg pt-4 pb-4 text-center">
                   <div className="text-xl md:text-2xl font-medium text-amber-300">
