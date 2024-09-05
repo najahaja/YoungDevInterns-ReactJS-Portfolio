@@ -18,7 +18,7 @@ const Home = () => {
       <span className="relative font-dancingScript text-xl md:text-2xl tracking-widest">
         Hey there!
       </span>
-      <span className="text-4xl md:text-5xl font-extrabold md:pl-0 pl-7 relative font-dm-serifDisplay tracking-wider text-amber-400">
+      <span className="text-4xl md:text-5xl font-extrabold md:pl-0 pl-17 text-center relative font-dm-serifDisplay tracking-wider text-amber-400">
         I am Ahamed Najah
       </span>
       <span className="text-lg md:pl-0 pl-10 md:text-2xl text-center relative font-genos">
