@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/c422df4a-eacd-4e20-9154-a02c93b51955/deploy-status)](https://app.netlify.com/sites/celadon-gnome-5f7f0f/deploys)
 # My Portfolio
 
 ![Portfolio Screenshot](./src/assets/screenshot.png)
