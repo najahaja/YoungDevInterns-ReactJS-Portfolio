@@ -29,16 +29,16 @@ To run the project locally, follow these steps:
    
 2. **Navigate to the project directory:**
 
-  cd your-portfolio-repo
+     cd your-portfolio-repo
   
 3. **Install dependencies:**
 
-  npm install
+     npm install
   
 4. **Start the development server:**
 
-  npm run dev
+     npm run dev
   
 5. **Build for production:**
 
-  npm run build
+     npm run build
