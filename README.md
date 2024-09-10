@@ -1,6 +1,6 @@
 # My Portfolio
 
-![Portfolio Screenshot](./src/assets/portfolio-screenshot.png)
+![Portfolio Screenshot](./src/assets/screenshot.png)
 
 ## Overview
 
