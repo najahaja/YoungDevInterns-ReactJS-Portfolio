@@ -16,9 +16,9 @@ const About = () => {
             About me:
           </div>
           <div className="about-body-right-content text-justify px-4 md:px-8">
-            I am a Computer Engineering student currently in my 5th semester with a strong foundation in HTML, CSS, JavaScript, React.js, and Bootstrap, alongside proficiency in Python, C, C++, and Java. My experience with Visual Studio Code, IntelliJ IDEA, Vite, and Git complements my academic knowledge, allowing me to build and maintain efficient, scalable web applications.
+            I am a final-year Computer Engineering student with a strong foundation in front-end development and a growing interest in Artificial Intelligence and Machine Learning. Over the past year, I have built and deployed multiple projects using React.js, JavaScript, HTML, CSS, and Bootstrap, all of which are available on my GitHub portfolio. My hands-on experience with tools like Visual Studio Code, Git, and Vite has helped me develop responsive, scalable, and user-friendly web applications.
             <br /><br />
-            As a dedicated Frontend Developer, I am passionate about creating user-friendly and visually appealing websites and am committed to staying updated with the latest frontend technologies. I am also excited to transition into Artificial Intelligence (AI) Engineering, where I aim to combine my technical skills and programming background to develop AI-powered applications and intelligent systems that drive innovation and enhance user experiences.
+            Recently, I have expanded my skill set into the AI/ML domain, completing several machine learning projects on Kaggle that involve data preprocessing, model training, and evaluation using Python, Pandas, Scikit-Learn, and Matplotlib. I am passionate about blending my front-end development skills with AI to build intelligent, interactive web applications that offer smart user experiences. I continuously strive to stay up to date with modern technologies and apply my knowledge to real-world problem-solving.
           </div>
           <Link to="/resume">
             <div
