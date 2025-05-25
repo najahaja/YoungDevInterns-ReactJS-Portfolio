@@ -131,7 +131,7 @@ const Contact = () => {
       <div className="footer w-full h-1/6 bg-black/50 flex flex-col items-center justify-center text-amber-200/70">
         <span>A Vite+TailWindCSS+React App</span>
         <span className=" font-semibold">Designed and Developed by Ahamed Najah</span>
-        <span>All Rights Reserved@2024</span>
+        <span>All Rights Reserved@2025</span>
       </div>
     </div>
   );
