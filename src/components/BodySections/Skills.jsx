@@ -17,16 +17,16 @@ const Skills = () => {
       <div className="flex flex-col md:flex-row w-full md:w-9/12 gap-8 md:gap-16 justify-center items-center px-4 md:px-0 mt-32"> {/* Increased margin-top */}
         <div className="skill-sec1 flex flex-col text-left gap-5 pt-6 pb-6 pr-4 pl-4 rounded bg-white/10 hover:bg-black/40 md:pr-10 md:pl-10">
           <span className="text-2xl md:text-3xl font-bold border-b-2 border-amber-400 p-2 text-amber-400">
-            Web Technologies
+            ML/AI
           </span>
           <ul className="flex flex-col gap-1 font-semibold text-base text-lime-50">
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript-ES6</li>
-            <li>React</li>
-            <li>Vite</li>
-            <li>TailWindCSS</li>
-            <li>Bootstrap</li>
+            <li>Python</li>
+    <li>TensorFlow/PyTorch</li>
+    <li>Scikit-learn</li>
+    <li>Pandas, NumPy</li>
+    <li>Data Visualization</li>
+    <li>Jupyter Notebooks</li>
+    <li>Statistics & Linear Algebra</li>
           </ul>
         </div>
         <div className="skill-sec2 flex flex-col text-center gap-5 pt-6 pb-6 pr-4 pl-4 rounded bg-white/10 hover:bg-black/40 md:pr-12 md:pl-12">
@@ -35,26 +35,26 @@ const Skills = () => {
           </span>
           <ul className="flex flex-col gap-1 font-semibold text-base text-lime-50">
             <li>Git, GitHub</li>
-            <li>MATLAB</li>
-            <li>Multisim</li>
-            <li>IntelliJ IDEA</li>
-            <li>Eclipse</li>
-            <li>PyCharm</li>
-            <li>Visual Studio Code</li>
+    <li>MATLAB</li>
+    <li>Visual Studio Code</li>
+    <li>PyCharm</li>
+    <li>Jupyter Lab</li>
+    <li>Google Colab</li>
+    <li>Docker</li>
           </ul>
         </div>
         <div className="skill-sec3 flex flex-col text-right gap-5 pt-6 pb-6 pr-4 pl-4 rounded bg-white/10 hover:bg-black/40 md:pr-10 md:pl-10">
           <span className="text-2xl md:text-3xl font-bold border-b-2 border-amber-400 p-2 text-amber-400">
-            Others
+            Web & Others
           </span>
           <ul className="flex flex-col gap-1 font-semibold text-base text-lime-50">
-            <li>React Router</li>
-            <li>C/C++</li>
-            <li>Python</li>
-            <li>Java</li>
-            <li>VHDL, DLD</li>
-            <li>Assembly Language</li>
-            <li>Adaptability</li>
+            <li>JavaScript</li>
+    <li>React</li>
+    <li>HTML5/CSS3</li>
+    <li>C/C++</li>
+    <li>Java</li>
+    <li>SQL</li>
+    <li>Adaptability</li>
           </ul>
         </div>
       </div>
