@@ -96,7 +96,7 @@ const Contact = () => {
               </button>
               <span>or</span>
               <a
-                href="mailto:alhafil.najah.aj@gmail.com"
+                href="mailto:najahaja00@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-3 rounded bg-green-600 font-semibold flex gap-1 items-center hover:bg-amber-400 hover:text-black"
