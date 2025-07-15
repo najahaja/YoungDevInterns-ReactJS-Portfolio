@@ -18,7 +18,7 @@ const About = () => {
           <div className="about-body-right-content text-justify px-4 md:px-8">
             I’m a final-year Computer Engineering student with strong experience in front-end development, particularly in React.js, JavaScript, HTML, and CSS. I've built and deployed multiple projects, all showcased on my GitHub and portfolio.
             <br /><br />
-            Recently, I’ve started working in AI/ML, completing projects on Kaggle using Python, Pandas, and Scikit-Learn. I'm passionate about combining intelligent systems with clean, user-focused interfaces and constantly strive to stay updated with modern technologies.
+            Recently, I’ve been actively working in AI/ML, building and refining models through hands-on Kaggle projects using Python, Pandas, and Scikit-Learn. I’m passionate about integrating intelligent systems with intuitive, user-centric interfaces and continuously expanding my skills with modern technologies.
           </div>
           <Link to="/resume">
             <div
