@@ -22,7 +22,7 @@ const Home = () => {
         I am Ahamed Najah
       </span>
       <span className="text-lg md:pl-0 pl-10 md:text-2xl text-center relative font-genos">
-        A Frontend Developer with a passion for creating user-friendly websites, aspiring to transition into AI Engineering to merge design and technology with intelligent systems.
+        A React Developer and AI Engineer passionate about building intelligent, user-centric applications. Skilled in crafting responsive front-end interfaces with modern web technologies while integrating AI/ML solutions to enhance functionality and user experience.
       </span>
     </div>
   );
