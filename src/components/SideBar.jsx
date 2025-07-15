@@ -31,14 +31,14 @@ const SideBar = () => {
       </div>
       <div class="icon-container flex flex-row items-center justify-start cursor-pointer relative hover:w-48">
         <a
-          href="https://www.linkedin.com/in/ahamed-najah-269011249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          href="www.linkedin.com/in/ahamednajah"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faLinkedin} className="icn text-2xl" />
         </a>
         <a
-          href="https://www.linkedin.com/in/ahamed-najah-269011249?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          href="www.linkedin.com/in/ahamednajah"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -77,14 +77,14 @@ const SideBar = () => {
       </div>
       <div class="icon-container flex flex-row items-center justify-start cursor-pointer relative mb-2 hover:w-48">
         <a
-          href="mailto:alhafil.najah.aj@gmail.com"
+          href="mailto:najahaja00@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faEnvelope} className="icn text-xl " />
         </a>
         <a
-          href="mailto:alhafil.najah.aj@gmail.com"
+          href="mailto:najahaja00@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
