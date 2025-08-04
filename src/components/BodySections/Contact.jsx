@@ -5,7 +5,7 @@ import { faPaperPlane, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 const Contact = () => {
   const [modal, setModal] = useState(false);
-  const [formState, handleSubmit] = useForm("alhafil.najah.aj@gmail.com");
+  const [formState, handleSubmit] = useForm("najahaja00@gmail.com");
 
   const toggleModal = () => {
     setModal(!modal);
