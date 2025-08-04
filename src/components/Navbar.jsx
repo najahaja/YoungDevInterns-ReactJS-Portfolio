@@ -27,22 +27,22 @@ const Navbar = () => {
             About
           </a>
         </div>
-        <div className="btn cursor-pointer education hover:border-b-4 border-orange-600 rounded-md">
+        <div className="btn cursor-pointer education hover:border-b-4 border-white-600 rounded-md">
           <a href="#education" rel="noopener noreferrer">
             Education
           </a>
         </div>
-        <div className="btn cursor-pointer skills hover:border-b-4 border-red-600 rounded-md">
+        <div className="btn cursor-pointer skills hover:border-b-4 border-white-600 rounded-md">
           <a href="#skills" rel="noopener noreferrer">
             Skills
           </a>
         </div>
-        <div className="btn cursor-pointer projects hover:border-b-4 border-blue-600 rounded-md">
+        <div className="btn cursor-pointer projects hover:border-b-4 border-white-600 rounded-md">
           <a href="#projects" rel="noopener noreferrer">
             Projects
           </a>
         </div>
-        <div className="btn cursor-pointer contact hover:border-b-4 border-green-600 rounded-md">
+        <div className="btn cursor-pointer contact hover:border-b-4 border-white-600 rounded-md">
           <a href="#contact" rel="noopener noreferrer">
             Contact
           </a>
