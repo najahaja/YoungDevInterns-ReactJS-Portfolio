@@ -29,9 +29,11 @@ const Skills = () => {
             <li>GeoPandas / OSMnx</li>
             <li>Scikit-learn</li>
             <li>Pandas, NumPy</li>
-            <li>Data Visualization</li>
-            <li>Jupyter Notebooks</li>
-            <li>Statistics & Linear Algebra</li>
+            <li>LLM Integration (RAG)</li>
+            <li>Agentic Orchestration</li>
+            <li>MLOps Principles</li>
+            <li>Stable-Baselines3 (RL)</li>
+            <li>GeoPandas / OSMnx</li>
           </ul>
         </div>
         <div className="skill-sec2 flex flex-col text-center gap-5 pt-6 pb-6 pr-4 pl-4 rounded bg-white/10 hover:bg-black/40 md:pr-12 md:pl-12">
@@ -40,13 +42,13 @@ const Skills = () => {
           </span>
           <ul className="flex flex-col gap-1 font-semibold text-base text-lime-50">
             <li>Git, GitHub</li>
-    <li>Vector Databases (Pinecone/Chroma)</li>
-    <li>Visual Studio Code</li>
-    <li>AWS (AI Services)</li>
-    <li>Snowflake</li>
-    <li>Jupyter Lab</li>
-    <li>Google Colab</li>
-    <li>Docker</li>
+            <li>Vector Databases (Pinecone/Chroma)</li>
+            <li>Visual Studio Code</li>
+            <li>AWS (AI Services)</li>
+            <li>Snowflake</li>
+            <li>Jupyter Lab</li>
+            <li>Google Colab</li>
+            <li>Docker</li>
           </ul>
         </div>
         <div className="skill-sec3 flex flex-col text-right gap-5 pt-6 pb-6 pr-4 pl-4 rounded bg-white/10 hover:bg-black/40 md:pr-10 md:pl-10">
