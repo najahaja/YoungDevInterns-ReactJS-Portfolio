@@ -16,10 +16,8 @@ const About = () => {
             About me:
           </div>
           <div className="about-body-right-content text-justify px-4 md:px-8">
-            I’m a final-year Computer Engineering student with strong experience in front-end development, particularly in React.js, JavaScript, HTML, and CSS. I've built and deployed multiple projects, all showcased on my GitHub and portfolio.
-            <br /><br />
-            Recently, I’ve been actively working in AI/ML, building and refining models through hands-on Kaggle projects using Python, Pandas, and Scikit-Learn. I’m passionate about integrating intelligent systems with intuitive, user-centric interfaces and continuously expanding my skills with modern technologies.
-          </div>
+           I am a Mission-driven AI Engineer and Computer Engineering student (CGPA: 3.93) specializing in Agentic Orchestration and RAG pipelines. I focus on bridging the gap between AI research and production, with a proven ability to reduce system latency by 25% in live environments.<br /><br />
+            Beyond model development, I leverage my full-stack expertise to build data-intensive interfaces for complex AI workflows. Whether architecting multi-agent simulations for disaster response or fine-tuning medical LLMs, I am dedicated to creating impactful, user-centric solutions.</div>
           <Link to="/resume">
             <div
               className="g-btn-2 hover:scale-110   "
