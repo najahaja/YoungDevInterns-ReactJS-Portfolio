@@ -15,11 +15,11 @@ const Skills = () => {
 
       {/* Skills Content */}
       <div className="flex flex-col md:flex-row w-full md:w-9/12 gap-8 md:gap-16 justify-center items-center px-4 md:px-0 mt-32"> {/* Increased margin-top */}
-        <div className="skill-sec1 flex flex-col text-left gap-5 pt-6 pb-6 pr-4 pl-4 rounded bg-white/10 hover:bg-black/40 md:pr-10 md:pl-10">
+        <div className="skill-sec1 flex flex-col text-left gap-3 pt-6 pb-6 pr-4 pl-4 rounded bg-white/10 hover:bg-black/40 md:pr-8 md:pl-8">
           <span className="text-2xl md:text-3xl font-bold border-b-2 border-amber-400 p-2 text-amber-400">
-            ML/AI
+            AI/ML
           </span>
-          <ul className="flex flex-col gap-1 font-semibold text-base text-lime-50">
+          <ul className="flex flex-col gap-0 font-semibold text-base text-lime-50 leading-relaxed text-left pl-0 list-none">
             <li>Python</li>
             <li>TensorFlow/PyTorch</li>
             <li>LLM Integration (RAG)</li>
@@ -29,14 +29,9 @@ const Skills = () => {
             <li>GeoPandas / OSMnx</li>
             <li>Scikit-learn</li>
             <li>Pandas, NumPy</li>
-            <li>LLM Integration (RAG)</li>
-            <li>Agentic Orchestration</li>
-            <li>MLOps Principles</li>
-            <li>Stable-Baselines3 (RL)</li>
-            <li>GeoPandas / OSMnx</li>
           </ul>
         </div>
-        <div className="skill-sec2 flex flex-col text-center gap-5 pt-6 pb-6 pr-4 pl-4 rounded bg-white/10 hover:bg-black/40 md:pr-12 md:pl-12">
+        <div className="skill-sec2 flex flex-col text-center gap-5 pt-6 pb-6 pr-2 pl-2 rounded bg-white/10 hover:bg-black/40 md:pr-3 md:pl-3">
           <span className="text-2xl md:text-3xl font-bold border-b-2 border-amber-400 p-2 text-amber-400">
             Tools
           </span>
