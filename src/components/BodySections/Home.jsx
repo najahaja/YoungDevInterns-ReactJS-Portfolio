@@ -22,8 +22,7 @@ const Home = () => {
         I am Ahamed Najah
       </span>
       <span className="text-lg md:pl-0 pl-10 md:text-2xl text-center relative font-genos">
-        A React Developer and AI Engineer passionate about building intelligent, user-centric applications. Skilled in crafting responsive front-end interfaces with modern web technologies while integrating AI/ML solutions to enhance functionality and user experience.
-      </span>
+       An AI Engineer specializing in Agentic RAG and LLM orchestration for scalable product integration. Proven at optimizing production workflows to reduce latency by 25% while architecting data-intensive systems that leverage proprietary data to drive social good.</span>
     </div>
   );
 };
