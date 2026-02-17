@@ -72,7 +72,7 @@ const Education = () => {
                   <div className="text-xl md:text-2xl font-medium text-amber-300">
                     Grades Achieved:
                   </div>
-                  <div className="text-base md:text-lg">3.91/4.00</div>
+                  <div className="text-base md:text-lg">3.93/4.00</div>
                 </div>
               </div>
             </div>
