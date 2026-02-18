@@ -32,14 +32,10 @@
 
 .avatar {
     background-image: url('../Images/Photo.jpg');
-    transform: translate(3%, -2%);
     margin-top: 1px;
     margin-right: 0px;
-    transform: none;
-   
-  
-    
 }
+
 @keyframes rotateBackground {
     0% {
         transform: rotate(0deg);

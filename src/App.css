@@ -1,18 +1,168 @@
-@import './assets/Styles/SideBar.css';
-@import './assets/Styles/backgrounds.css';
-@import './assets/Styles/customs.css';
-@import './assets/Styles/fonts.css';
+@import "./assets/Styles/SideBar.css";
+@import "./assets/Styles/backgrounds.css";
+@import "./assets/Styles/customs.css";
+@import "./assets/Styles/fonts.css";
 
 * {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* section-contact form */
 body.active-modal {
-    overflow-y: hidden;
+  overflow-y: hidden;
 }
 
 /* section-projects */
 .card:hover .card-overlay {
-    opacity: 1;
+  opacity: 1;
+}
+
+/* =============================================
+   LIGHT MODE OVERRIDES
+   Applied when <html class="light"> is set
+   ============================================= */
+
+html.light body {
+  background-color: #f8f7f2;
+  color: #1a1a1a;
+}
+
+/* ── Section backgrounds: replace dark SVG with warm cream ── */
+html.light .HomeBody,
+html.light .AboutBody,
+html.light .EducationBody,
+html.light .SkillsBody,
+html.light .ContactBody {
+  background-color: #f0ede4 !important;
+  background-image: none !important;
+  color: #1a1a1a;
+}
+
+html.light .HomeBody::before {
+  opacity: 0.04;
+}
+
+/* ── Navbar ── */
+html.light .navBar {
+  background: rgba(248, 247, 242, 0.95) !important;
+  border-bottom: 1px solid #e5e7eb;
+}
+html.light .navBar a,
+html.light .navBar span,
+html.light .navBar button {
+  color: #92400e !important;
+}
+
+/* ── Sidebar ── */
+html.light .sideBar {
+  background: linear-gradient(to right, #92400e, #d97706) !important;
+}
+
+/* ── Image: same as dark mode, only border color changes in light ── */
+html.light .avatar {
+  border-color: #92400e !important;
+}
+html.light .img-border {
+  border-color: #92400e !important;
+}
+
+
+
+/* ── Education & Contact: dark card backgrounds → light amber tint ── */
+html.light .bg-black\/40,
+html.light .bg-black\/50,
+html.light .bg-black\/60,
+html.light .bg-black\/70,
+html.light .bg-black\/80 {
+  background-color: rgba(180, 83, 9, 0.08) !important;
+}
+
+/* Education tab buttons */
+html.light li.bg-black\/60 {
+  background-color: rgba(180, 83, 9, 0.12) !important;
+  color: #1a1a1a !important;
+}
+
+/* ── Skills: text-lime-50 is near-white, invisible on light bg ── */
+html.light .text-lime-50 {
+  color: #1c1917 !important;
+}
+
+/* Skills card base */
+html.light .bg-white\/10 {
+  background-color: rgba(180, 83, 9, 0.08) !important;
+}
+
+/* ── Contact: form container ── */
+html.light label {
+  color: #1a1a1a !important;
+}
+
+html.light input,
+html.light textarea {
+  background-color: #fff !important;
+  color: #1a1a1a !important;
+  border: 1px solid #d97706 !important;
+}
+
+/* ── Footer ── */
+html.light .footer {
+  background-color: rgba(180, 83, 9, 0.1) !important;
+  color: #92400e !important;
+}
+html.light .footer span {
+  color: #92400e !important;
+}
+html.light .text-amber-200\/70 {
+  color: #92400e !important;
+}
+
+/* ── General text overrides ── */
+html.light .text-white {
+  color: #1a1a1a !important;
+}
+html.light .text-white\/80 {
+  color: rgba(26, 26, 26, 0.85) !important;
+}
+html.light .text-white\/75 {
+  color: rgba(26, 26, 26, 0.8) !important;
+}
+html.light .text-white\/70 {
+  color: rgba(26, 26, 26, 0.75) !important;
+}
+html.light .text-white\/60 {
+  color: rgba(26, 26, 26, 0.65) !important;
+}
+
+/* ── Amber accents: slightly darker for contrast on light bg ── */
+html.light .text-amber-400 {
+  color: #b45309 !important;
+}
+html.light .text-amber-300 {
+  color: #92400e !important;
+}
+html.light .border-amber-400 {
+  border-color: #b45309 !important;
+}
+
+/* ── bg-black overrides ── */
+html.light .bg-black {
+  background-color: #f0ede4 !important;
+}
+html.light .bg-black\/90,
+html.light .bg-black\/95 {
+  background-color: rgba(240, 237, 228, 0.95) !important;
+}
+
+/* ── Work Experience & Certificate cards ── */
+html.light .bg-white\/5 {
+  background-color: rgba(0, 0, 0, 0.05) !important;
+}
+html.light .backdrop-blur-sm {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* ── 404 page ── */
+html.light .min-h-screen.bg-black {
+  background-color: #f8f7f2 !important;
 }
