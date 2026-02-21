@@ -105,4 +105,3 @@ Distributed under the MIT License. See `LICENSE` for more information (if applic
 
 **Ahamed Najah** - [@najahaja](https://github.com/najahaja)
 
-Project Link: [https://github.com/najahaja/YoungDevInterns-ReactJS-Portfolio](https://github.com/najahaja/YoungDevInterns-ReactJS-Portfolio)
