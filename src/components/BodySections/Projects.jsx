@@ -58,8 +58,8 @@ const Projects = () => {
       title: "Sentiment Analysis", 
       demo: "https://huggingface.co/spaces/najahaja/Sentiment-Analysis", 
       source: "https://github.com/najahaja/Sentiment-Analysis", 
-      lang: "Python,PyTorch / TensorFlow", 
-      tools: "Huggingface, BERT, Bi-LSTM, TF-IDF + Logistic Regression, Scikit-learn"
+      lang: "Python", 
+      tools: "Huggingface, BERT, Bi-LSTM, TF-IDF + Logistic Regression, Scikit-learn,PyTorch"
     }
   ];
 
