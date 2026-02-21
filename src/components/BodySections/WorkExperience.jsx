@@ -6,27 +6,40 @@ const experiences = [
     role: "Full-Stack Developer Intern ",
     company: "PINNACLOID",
     location: "Lahore, Pakistan",
-    duration: "Aug 2025 – Oct 2025",
+    duration: "Aug 2026 – Oct 2026",
     type: "Internship",
     description: [
       "Build and scale foundational full-stack features using Node.js and React.js to support the integration of LLMs into production environments.",
       "Optimize 12+ REST API endpoints and data retrieval systems, reducing latency by 25% to facilitate real time Retrieval-Augmented Generation (RAG) workflows.",
       "Leverage Node.js for backend orchestration, ensuring seamless product integration and resolving 30+ critical bugs within the production cycle.",
     ],
-    tech: ["React.js", "Node.js", "Node.js & Express", "PostgreSQL", "MongoDB", "Redux"],
+    tech: [
+      "React.js",
+      "Node.js",
+      "Node.js & Express",
+      "PostgreSQL",
+      "MongoDB",
+      "Redux",
+    ],
   },
   {
     role: "Machine Learning Intern ",
     company: "ARCH TECHNOLOGIES",
     location: "Remote",
-    duration: "June 2025 – July 2025",
+    duration: "June 2026 – July 2026",
     type: "Internship",
     description: [
       "Integrate LLM technologies by fine-tuning LLaMA 3.2 (3B) using Prompt Engineering and medical chain-of-thought datasets to leverage proprietary healthcare data.",
       "Deploy brain tumor segmentation systems using YOLO 11 and SAM2, achieving 89.5% accuracy through optimized MLOps principles and model evaluation. ",
       "Build Agentic Workflows for medical data processing, implementing voice cloning pipelines and Vector databases for efficient information retrieval. ",
     ],
-    tech: ["PyTorch", "Hugginf Face", "NumPy & Pandas", "Scikit-learn", "Matplotlib & Seaborn"],
+    tech: [
+      "PyTorch",
+      "Hugginf Face",
+      "NumPy & Pandas",
+      "Scikit-learn",
+      "Matplotlib & Seaborn",
+    ],
   },
   {
     role: "React Developer ",
@@ -38,13 +51,13 @@ const experiences = [
       "Build 3+ production-ready web applications leveraging React.js, Redux, and Tailwind CSS to deliver scalable UIs for proprietary data platforms. ",
       "Collaborate within Agile/SCRUM teams to integrate modular interfaces, ensuring the delivery of high value tools for the non-profit sector and social good. ",
     ],
-    tech: ["React.js", "TailwindCSS", "Vite", "Redux","Context API"],
+    tech: ["React.js", "TailwindCSS", "Vite", "Redux", "Context API"],
   },
   {
     role: "React Developer (Freelance)",
     company: "Self-Employed",
     location: "Remote",
-    duration: "2025 – present",
+    duration: "2026 – present",
     type: "Freelance",
     description: [
       "Developed responsive React web applications for clients using Vite, Redux, and Tailwind CSS.",
@@ -106,15 +119,23 @@ const WorkExperience = () => {
               {/* Header */}
               <div className="flex flex-wrap items-start justify-between gap-2 mb-3">
                 <div>
-                  <h3 className="text-lg font-bold text-amber-300">{exp.role}</h3>
-                  <p className="text-sm text-white/70">{exp.company} · {exp.location}</p>
+                  <h3 className="text-lg font-bold text-amber-300">
+                    {exp.role}
+                  </h3>
+                  <p className="text-sm text-white/70">
+                    {exp.company} · {exp.location}
+                  </p>
                 </div>
-                <span className={`text-xs px-2 py-1 rounded-full border font-semibold ${typeColors[exp.type]}`}>
+                <span
+                  className={`text-xs px-2 py-1 rounded-full border font-semibold ${typeColors[exp.type]}`}
+                >
                   {exp.type}
                 </span>
               </div>
 
-              <p className="text-xs text-amber-400/80 font-mono mb-3">{exp.duration}</p>
+              <p className="text-xs text-amber-400/80 font-mono mb-3">
+                {exp.duration}
+              </p>
 
               {/* Description */}
               <ul className="flex flex-col gap-1.5 mb-4">

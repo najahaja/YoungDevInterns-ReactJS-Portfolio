@@ -5,6 +5,7 @@ import video1 from "../../../src/assets/Images/Connect-four.mp4";
 import video2 from "../../../src/assets/Images/Food Cart.mp4";
 import video3 from "../../../src/assets/Images/Inference-and-Evaluation-of-MedSAM-2-on-Brain-Tumor-Segmentation-BRATS-2019.mp4"
 import video4 from "../../../src/assets/Images/TaskB1.mp4";
+import video5 from "../../../src/assets/Images/Sentiment Analysis.mp4"
 
 const Projects = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -51,6 +52,14 @@ const Projects = () => {
       source: "https://github.com/najahaja/TumorDetection", 
       lang: "Python", 
       tools: "Jupyter Notebook, Pytorch, Numpy, matplotlib,Streamlit"
+    },
+    { 
+      src: video5, 
+      title: "Sentiment Analysis", 
+      demo: "https://huggingface.co/spaces/najahaja/Sentiment-Analysis", 
+      source: "https://github.com/najahaja/Sentiment-Analysis", 
+      lang: "Python,PyTorch / TensorFlow", 
+      tools: "Huggingface, BERT, Bi-LSTM, TF-IDF + Logistic Regression, Scikit-learn"
     }
   ];
 
