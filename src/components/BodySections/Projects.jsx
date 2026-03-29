@@ -6,7 +6,7 @@ import video2 from "../../../src/assets/Images/Food Cart.mp4";
 import video3 from "../../../src/assets/Images/Inference-and-Evaluation-of-MedSAM-2-on-Brain-Tumor-Segmentation-BRATS-2019.mp4"
 import video4 from "../../../src/assets/Images/TaskB1.mp4";
 import video5 from "../../../src/assets/Images/Sentiment Analysis.mp4"
-
+import video6 from "../../../src/assets/Images/Travel Planner Agents.mp4"
 const Projects = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [showAll, setShowAll] = useState(false);
@@ -60,6 +60,14 @@ const Projects = () => {
       source: "https://github.com/najahaja/Sentiment-Analysis", 
       lang: "Python", 
       tools: "Huggingface, BERT, Bi-LSTM, TF-IDF + Logistic Regression, Scikit-learn,PyTorch"
+    },
+    { 
+      src: video6, 
+      title: "Travel Planner Agent", 
+      demo: "https://travel-planner-agent-1.streamlit.app/", 
+      source: "https://github.com/najahaja/Travel-Planner-Agent", 
+      lang: "Python", 
+      tools: "LangGraph, LangChain, Tavily Search API, Antigravity IDE"
     }
   ];
 
