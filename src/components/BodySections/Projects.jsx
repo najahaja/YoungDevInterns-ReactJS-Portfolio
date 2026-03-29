@@ -6,7 +6,7 @@ import video2 from "../../../src/assets/Images/Food Cart.mp4";
 import video3 from "../../../src/assets/Images/Inference-and-Evaluation-of-MedSAM-2-on-Brain-Tumor-Segmentation-BRATS-2019.mp4"
 import video4 from "../../../src/assets/Images/TaskB1.mp4";
 import video5 from "../../../src/assets/Images/Sentiment Analysis.mp4"
-import video6 from "../../../src/assets/Images/Travel Planner Agents.mp4"
+import video6 from "../../../src/assets/Images/Travel Planner Agent.mp4"
 const Projects = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [showAll, setShowAll] = useState(false);
