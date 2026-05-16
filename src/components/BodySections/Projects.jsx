@@ -7,6 +7,7 @@ import video3 from "../../../src/assets/Images/Inference-and-Evaluation-of-MedSA
 import video4 from "../../../src/assets/Images/TaskB1.mp4";
 import video5 from "../../../src/assets/Images/Sentiment Analysis.mp4"
 import video6 from "../../../src/assets/Images/Travel Planner Agent.mp4"
+import video7 from "../../../src/assets/Images/Travel_Planner_Agentic_AI.mp4"
 const Projects = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [showAll, setShowAll] = useState(false);
@@ -68,6 +69,14 @@ const Projects = () => {
       source: "https://github.com/najahaja/Travel-Planner-Agent", 
       lang: "Python", 
       tools: "LangGraph, LangChain, Tavily Search API, Antigravity IDE"
+    },
+    { 
+      src: video7, 
+      title: "Travel Planner Agentic AI", 
+      demo: "https://github.com/najahaja/AI-Travel-Planner-Agent-SaaS", 
+      source: "https://github.com/najahaja/AI-Travel-Planner-Agent-SaaS", 
+      lang: "Python,React", 
+      tools: "LangGraph, LangChain, Google Place API, Antigravity IDE"
     }
   ];
 
