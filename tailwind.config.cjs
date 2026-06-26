@@ -6,8 +6,10 @@ module.exports = {
     "./components/**/*.{html,js,jsx}",
     "./pages/**/*.{html,js,jsx}",
   ],
+  darkMode: 'class',
   theme: {
     extend: {},
   },
   plugins: [],
-};
+}
+;

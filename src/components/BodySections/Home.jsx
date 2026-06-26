@@ -38,7 +38,7 @@ const TypewriterText = () => {
   }, [displayedText, isDeleting, currentRoleIndex]);
 
   return (
-    <span className="text-amber-400">
+    <span className="text-amber-500 dark:text-amber-400">
       {displayedText}
       <span className="animate-pulse">|</span>
     </span>
@@ -48,7 +48,7 @@ const TypewriterText = () => {
 const Home = () => {
   return (
     <div
-      className="HomeBody flex flex-col md:flex-row justify-center items-center gap-8 relative min-h-screen w-full text-white bg-black p-6 md:p-12 font-bold bg-cover bg-no-repeat bg-center"
+      className="HomeBody flex flex-col md:flex-row justify-center items-center gap-8 relative min-h-screen w-full transition-colors duration-300 text-slate-900 bg-slate-50 dark:bg-slate-950 dark:text-slate-100 p-6 md:p-12 font-bold bg-cover bg-no-repeat bg-center"
       id="home"
     >
       {/* Left: Profile Image */}
@@ -58,19 +58,17 @@ const Home = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <div className="body-image-container h-48 w-48 md:h-64 md:w-64 flex items-center justify-center">
-          <div className="rotating-background-container h-full w-full flex items-center justify-center">
-            <div className="img-border h-full w-full border-4 border-amber-400 rounded-full"></div>
-            <div className="avatar-container flex items-center justify-center h-full w-full absolute">
-              <div className="avatar h-32 w-32 md:h-44 md:w-44 bg-cover bg-center rounded-full border-4 border-amber-400"></div>
-            </div>
-          </div>
+        <div className="relative group flex items-center justify-center">
+          {/* Subtle Glow Effect behind Avatar */}
+          <div className="absolute inset-0 bg-amber-400/20 dark:bg-amber-400/10 rounded-full blur-xl group-hover:blur-2xl transition-all duration-500"></div>
+          
+          <div className="avatar h-48 w-48 md:h-64 md:w-64 bg-cover bg-center rounded-full border-4 border-slate-200 dark:border-slate-800 shadow-xl group-hover:scale-105 group-hover:border-amber-400 transition-all duration-500 relative z-10"></div>
         </div>
 
         {/* Greeting + Name */}
         <div className="text-center">
           <motion.span
-            className="block font-dancingScript text-xl md:text-2xl tracking-widest text-white/80"
+            className="block font-dancingScript text-xl md:text-2xl tracking-widest text-slate-600 dark:text-slate-300"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
@@ -78,7 +76,7 @@ const Home = () => {
             Hey there!
           </motion.span>
           <motion.span
-            className="block text-3xl md:text-5xl font-extrabold text-center font-dm-serifDisplay tracking-wider text-amber-400 mt-1"
+            className="block text-3xl md:text-5xl font-extrabold text-center font-dm-serifDisplay tracking-wider text-amber-500 dark:text-amber-400 mt-1"
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.6 }}
@@ -110,7 +108,7 @@ const Home = () => {
           {roles.map((role, i) => (
             <span
               key={i}
-              className="px-3 py-1 rounded-full text-xs font-semibold border border-amber-400 text-amber-300 bg-amber-400/10 hover:bg-amber-400 hover:text-black transition-all duration-300"
+              className="px-3 py-1 rounded-full text-xs font-semibold border border-amber-500/50 dark:border-amber-400/50 text-amber-700 dark:text-amber-300 bg-amber-500/10 dark:bg-amber-400/10 hover:bg-amber-500 hover:text-white dark:hover:bg-amber-400 dark:hover:text-black transition-all duration-300 cursor-default"
             >
               {role}
             </span>
@@ -119,7 +117,7 @@ const Home = () => {
 
         {/* Description */}
         <motion.p
-          className="text-sm md:text-base text-white/80 font-normal leading-relaxed"
+          className="text-sm md:text-base text-slate-600 dark:text-slate-300 font-normal leading-relaxed"
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.6 }}
@@ -129,8 +127,6 @@ const Home = () => {
           to reduce latency by 25% while architecting data-intensive systems that
           leverage proprietary data to drive social good.
         </motion.p>
-
-
       </motion.div>
     </div>
   );

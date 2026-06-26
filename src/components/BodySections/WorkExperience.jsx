@@ -69,20 +69,20 @@ const experiences = [
 ];
 
 const typeColors = {
-  Internship: "bg-green-500/20 text-green-400 border-green-500",
-  Research: "bg-blue-500/20 text-blue-400 border-blue-500",
-  Freelance: "bg-purple-500/20 text-purple-400 border-purple-500",
+  Internship: "bg-emerald-500/10 text-emerald-600 border-emerald-500/30 dark:bg-emerald-500/20 dark:text-emerald-400 dark:border-emerald-500",
+  Research: "bg-blue-500/10 text-blue-600 border-blue-500/30 dark:bg-blue-500/20 dark:text-blue-400 dark:border-blue-500",
+  Freelance: "bg-purple-500/10 text-purple-600 border-purple-500/30 dark:bg-purple-500/20 dark:text-purple-400 dark:border-purple-500",
 };
 
 const WorkExperience = () => {
   return (
     <div
       id="experience"
-      className="EducationBody flex flex-col justify-center items-center min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-white py-20 px-4 md:px-12"
+      className="EducationBody flex flex-col justify-center items-center min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-slate-800 dark:text-slate-200 py-20 px-4 md:px-12 transition-colors duration-300"
     >
       {/* Title */}
       <motion.div
-        className="text-3xl font-extrabold font-mono text-amber-400 mb-12 self-start md:self-center"
+        className="text-3xl font-extrabold font-mono text-amber-500 dark:text-amber-400 mb-12 self-start md:self-center"
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
@@ -94,7 +94,7 @@ const WorkExperience = () => {
       {/* Timeline */}
       <div className="relative w-full max-w-4xl">
         {/* Vertical line */}
-        <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-amber-400/30 transform md:-translate-x-1/2" />
+        <div className="absolute left-4 md:left-1/2 top-0 bottom-0 w-0.5 bg-slate-300 dark:bg-slate-700 transform md:-translate-x-1/2" />
 
         {experiences.map((exp, index) => (
           <motion.div
@@ -108,21 +108,21 @@ const WorkExperience = () => {
             transition={{ duration: 0.6, delay: index * 0.1 }}
           >
             {/* Dot on timeline */}
-            <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-amber-400 rounded-full border-2 border-black transform -translate-x-1/2 mt-6 z-10" />
+            <div className="absolute left-4 md:left-1/2 w-4 h-4 bg-amber-500 dark:bg-amber-400 rounded-full border-2 border-white dark:border-slate-950 transform -translate-x-1/2 mt-6 z-10" />
 
             {/* Card */}
             <div
-              className={`ml-10 md:ml-0 md:w-5/12 bg-white/5 hover:bg-white/10 border border-white/10 hover:border-amber-400/40 rounded-xl p-5 backdrop-blur-sm transition-all duration-300 ${
+              className={`ml-10 md:ml-0 md:w-5/12 bg-white dark:bg-slate-900 shadow-md border border-slate-200 dark:border-slate-800 hover:border-amber-500/40 dark:hover:border-amber-400/40 hover:shadow-xl rounded-xl p-5 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 ${
                 index % 2 === 0 ? "md:mr-auto md:ml-0" : "md:ml-auto md:mr-0"
               }`}
             >
               {/* Header */}
               <div className="flex flex-wrap items-start justify-between gap-2 mb-3">
                 <div>
-                  <h3 className="text-lg font-bold text-amber-300">
+                  <h3 className="text-lg font-bold text-amber-600 dark:text-amber-300">
                     {exp.role}
                   </h3>
-                  <p className="text-sm text-white/70">
+                  <p className="text-sm text-slate-600 dark:text-slate-400">
                     {exp.company} · {exp.location}
                   </p>
                 </div>
@@ -133,15 +133,15 @@ const WorkExperience = () => {
                 </span>
               </div>
 
-              <p className="text-xs text-amber-400/80 font-mono mb-3">
+              <p className="text-xs text-amber-600/80 dark:text-amber-400/80 font-mono mb-3">
                 {exp.duration}
               </p>
 
               {/* Description */}
               <ul className="flex flex-col gap-1.5 mb-4">
                 {exp.description.map((point, i) => (
-                  <li key={i} className="text-sm text-white/75 flex gap-2">
-                    <span className="text-amber-400 mt-0.5">▸</span>
+                  <li key={i} className="text-sm text-slate-600 dark:text-slate-300 flex gap-2">
+                    <span className="text-amber-500 dark:text-amber-400 mt-0.5">▸</span>
                     <span>{point}</span>
                   </li>
                 ))}
@@ -152,7 +152,7 @@ const WorkExperience = () => {
                 {exp.tech.map((t, i) => (
                   <span
                     key={i}
-                    className="text-xs px-2 py-0.5 rounded bg-amber-400/10 text-amber-300 border border-amber-400/20"
+                    className="text-xs px-2 py-0.5 rounded bg-amber-500/10 dark:bg-amber-400/10 text-amber-700 dark:text-amber-300 border border-amber-500/20 dark:border-amber-400/20"
                   >
                     {t}
                   </span>

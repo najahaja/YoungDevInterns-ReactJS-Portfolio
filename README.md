@@ -10,6 +10,14 @@ A sleek, modern, and highly responsive personal portfolio website built with **R
 
 ![Portfolio Screenshot](./src/assets/screenshot.png)
 
+## 🆕 Recent Updates (v2.0)
+
+-   **Complete UI Overhaul:** Transitioned from legacy CSS backgrounds to a clean, professional, utility-first design using Tailwind CSS.
+-   **Glassmorphism & Modern Aesthetics:** Replaced rotating borders and heavy graphics with sleek glassmorphic containers, subtle shadows, and a polished minimalist layout.
+-   **Advanced Scroll Animations:** Implemented `framer-motion` `whileInView` hooks across all major sections (About, Education, Skills, Projects, Contact) for fluid, scroll-triggered reveals.
+-   **Robust Theme Toggling:** Fixed and fortified the dark/light mode infrastructure via React Context and `localStorage` to ensure flawless theme persistence across the entire application and DOM.
+-   **Responsive Spacing Polish:** Perfected alignment, padding, and layout overflow handling on both desktop and mobile viewports.
+
 ## ✨ Key Features
 
 -   **🌓 Dynamic Theme Switching:** Seamlessly toggle between Light and Dark modes for a customized viewing experience.

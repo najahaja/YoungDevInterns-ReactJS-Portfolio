@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye, faCode } from "@fortawesome/free-solid-svg-icons";
+import { motion } from "framer-motion";
 import video1 from "../../../src/assets/Images/Connect-four.mp4";
 import video2 from "../../../src/assets/Images/Food Cart.mp4";
 import video3 from "../../../src/assets/Images/Inference-and-Evaluation-of-MedSAM-2-on-Brain-Tumor-Segmentation-BRATS-2019.mp4"
@@ -8,6 +9,7 @@ import video4 from "../../../src/assets/Images/TaskB1.mp4";
 import video5 from "../../../src/assets/Images/Sentiment Analysis.mp4"
 import video6 from "../../../src/assets/Images/Travel Planner Agent.mp4"
 import video7 from "../../../src/assets/Images/Travel_Planner_Agentic_AI.mp4"
+
 const Projects = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
   const [showAll, setShowAll] = useState(false);
@@ -85,25 +87,35 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="AboutBody flex flex-col items-center py-12 px-4 md:px-20 min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-black"
+      className="AboutBody flex flex-col items-center py-12 px-4 md:px-20 min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-slate-800 dark:text-slate-200 transition-colors duration-300"
     >
       {/* Section Title */}
-      <div className="w-full text-center mb-8">
-        <div className="text-3xl font-extrabold font-mono text-amber-400">
+      <motion.div 
+        className="w-full text-center mb-8"
+        initial={{ opacity: 0, y: -20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+      >
+        <div className="text-3xl font-extrabold font-mono text-amber-500 dark:text-amber-400">
           ..// projects
         </div>
-      </div>
+      </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full">
         {visibleProjects.map((project, index) => (
-          <div
-            key={index}
-            className="relative rounded-lg text-xl text-white cursor-pointer overflow-hidden aspect-video w-full"
+          <motion.div
+            key={project.title + index}
+            className="relative rounded-xl shadow-md dark:shadow-slate-900/50 hover:shadow-xl text-xl text-white cursor-pointer overflow-hidden aspect-video w-full transition-all duration-300"
             onMouseEnter={() => handleMouseEnter(index)}
             onMouseLeave={handleMouseLeave}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-50px" }}
+            transition={{ duration: 0.5, delay: (index % 4) * 0.1 }}
           >
             {project.isPlaceholder ? (
-              <div className="w-full h-full bg-black/50 flex items-center justify-center font-semibold text-xl hover:bg-black/80 hover:text-amber-400">
+              <div className="w-full h-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center font-semibold text-xl text-slate-500 dark:text-slate-400">
                 Coming Soon
               </div>
             ) : (
@@ -112,11 +124,11 @@ const Projects = () => {
                   <source src={project.src} type="video/mp4" />
                 </video>
                 {hoveredIndex === index && (
-                  <div className="card-overlay absolute top-0 left-0 w-full h-full bg-black/50 backdrop-blur-sm flex flex-col items-center justify-center gap-5 p-4">
-                    <div className="font-bold text-center md:text-lg text-base">{project.title}</div>
+                  <div className="card-overlay absolute top-0 left-0 w-full h-full bg-slate-900/80 backdrop-blur-sm flex flex-col items-center justify-center gap-5 p-4 transition-all duration-300">
+                    <div className="font-bold text-center md:text-lg text-base text-white">{project.title}</div>
                     <div className="links flex flex-col md:flex-row items-center justify-center gap-5">
                       <a
-                        className="card-button md:text-lg text-base md:p-3 p-1 rounded-lg bg-green-600 font-semibold flex gap-2 items-center hover:bg-amber-400 hover:text-black"
+                        className="card-button md:text-lg text-base md:p-3 p-2 rounded-lg bg-emerald-600 dark:bg-emerald-700 text-white font-semibold flex gap-2 items-center hover:bg-amber-500 dark:hover:bg-amber-400 hover:text-white dark:hover:text-slate-900 transition-colors duration-300"
                         href={project.demo}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -125,7 +137,7 @@ const Projects = () => {
                         Live Demo
                       </a>
                       <a
-                        className="card-button md:text-lg text-base md:p-3 p-1 rounded-lg bg-green-600 font-semibold flex gap-2 items-center hover:bg-amber-400 hover:text-black"
+                        className="card-button md:text-lg text-base md:p-3 p-2 rounded-lg bg-emerald-600 dark:bg-emerald-700 text-white font-semibold flex gap-2 items-center hover:bg-amber-500 dark:hover:bg-amber-400 hover:text-white dark:hover:text-slate-900 transition-colors duration-300"
                         href={project.source}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -134,7 +146,7 @@ const Projects = () => {
                         View Source
                       </a>
                     </div>
-                    <div className="text-xs flex flex-col gap-1 items-center mt-4">
+                    <div className="text-xs flex flex-col gap-1 items-center mt-4 text-slate-200">
                       <span>Written in: {project.lang}</span>
                       <span>Tools: {project.tools}</span>
                     </div>
@@ -142,18 +154,21 @@ const Projects = () => {
                 )}
               </>
             )}
-          </div>
+          </motion.div>
         ))}
       </div>
 
       {/* Load More Button - only shows when there are more than 4 projects */}
       {projects.length > 4 && (
-        <button
+        <motion.button
           onClick={() => setShowAll(!showAll)}
-          className="mt-10 px-8 py-3 rounded-full font-bold text-base tracking-wide border-2 border-amber-400 text-amber-400 hover:bg-amber-400 hover:text-black transition-all duration-300"
+          className="mt-10 px-8 py-3 rounded-full font-bold text-base tracking-wide border-2 border-amber-500 dark:border-amber-400 text-amber-600 dark:text-amber-400 hover:bg-amber-500 dark:hover:bg-amber-400 hover:text-white dark:hover:text-slate-900 transition-all duration-300 shadow-md"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
         >
           {showAll ? "Show Less ▲" : "Load More ▼"}
-        </button>
+        </motion.button>
       )}
     </div>
   );
