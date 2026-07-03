@@ -96,11 +96,15 @@ const typeColors = {
   "Full-time": "bg-indigo-500/10 text-indigo-600 border-indigo-500/30 dark:bg-indigo-500/20 dark:text-indigo-400 dark:border-indigo-500",
 };
 
+const getTypeColor = (type) => {
+  return typeColors[type] || "bg-slate-500/10 text-slate-600 border-slate-500/30 dark:bg-slate-500/20 dark:text-slate-400 dark:border-slate-500";
+};
+
 const WorkExperience = () => {
   return (
     <div
       id="experience"
-      className="EducationBody flex flex-col justify-center items-center min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-slate-800 dark:text-slate-200 py-20 px-4 md:px-12 transition-c[...]
+      className="EducationBody flex flex-col justify-center items-center min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-slate-800 dark:text-slate-200 py-20 px-4 md:px-12 transition-colors duration-300"
     >
       {/* Title */}
       <motion.div
@@ -134,7 +138,7 @@ const WorkExperience = () => {
 
             {/* Card */}
             <div
-              className={`ml-10 md:ml-0 md:w-5/12 bg-white dark:bg-slate-900 shadow-md border border-slate-200 dark:border-slate-800 hover:border-amber-500/40 dark:hover:border-amber-400/40 hover:shad[...]
+              className={`ml-10 md:ml-0 md:w-5/12 bg-white dark:bg-slate-900 shadow-md border border-slate-200 dark:border-slate-800 hover:border-amber-500/40 dark:hover:border-amber-400/40 hover:shadow-lg transition-all duration-300 rounded-lg p-4 ${
                 index % 2 === 0 ? "md:mr-auto md:ml-0" : "md:ml-auto md:mr-0"
               }`}
             >
@@ -149,7 +153,7 @@ const WorkExperience = () => {
                   </p>
                 </div>
                 <span
-                  className={`text-xs px-2 py-1 rounded-full border font-semibold ${typeColors[exp.type]}`}
+                  className={`text-xs px-2 py-1 rounded-full border font-semibold ${getTypeColor(exp.type)}`}
                 >
                   {exp.type}
                 </span>
