@@ -11,7 +11,7 @@ const Education = () => {
   return (
     <div
       id="education"
-      className="EducationBody flex flex-col justify-center items-center min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-slate-800 dark:text-slate-200 transition-colors duration-300 py-10"
+      className="EducationBody flex flex-col justify-center items-center min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-slate-800 dark:text-slate-200 transition-colors duration-300 p[...]
     >
       <div className="flex flex-col md:flex-row w-full md:w-9/12 relative mt-16 md:mt-0">
         {/* Sidebar */}
@@ -85,7 +85,7 @@ const Education = () => {
                       Tenure:
                     </div>
                     <div className="text-base md:text-lg text-slate-700 dark:text-slate-200 font-medium">4 Years</div>
-                    <div className="text-sm md:text-base text-slate-500 dark:text-slate-400">2022-Present</div>
+                    <div className="text-sm md:text-base text-slate-500 dark:text-slate-400">2022-2026</div>
                   </div>
                   
                   <div className="flex-1 flex flex-col gap-2 bg-white dark:bg-slate-800 rounded-xl p-5 border border-slate-100 dark:border-slate-700 shadow-sm text-right">
