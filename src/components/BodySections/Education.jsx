@@ -11,7 +11,7 @@ const Education = () => {
   return (
     <div
       id="education"
-      className="EducationBody flex flex-col justify-center items-center min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-slate-800 dark:text-slate-200 transition-colors duration-300 p[...]
+      className="EducationBody flex flex-col justify-center items-center min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-slate-800 dark:text-slate-200 transition-colors duration-300"
     >
       <div className="flex flex-col md:flex-row w-full md:w-9/12 relative mt-16 md:mt-0">
         {/* Sidebar */}
