@@ -3,6 +3,27 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    role: "AI Engineer",
+    company: "Artificizen",
+    location: "Onsite",
+    duration: "Apr 2026 – Present",
+    type: "Full-time",
+    description: [
+      "Designed and deployed 5+ production-grade AI agents using LangGraph and FastAPI, reducing development time by 40% through modular, state-machine-based architectures.",
+      "Built RAG pipelines integrating LangSmith, Vector Databases, and LLMs, improving retrieval accuracy by 35% for document-based Q&A systems.",
+      "Developed FastAPI & Django REST Framework backends, handling 500+ concurrent requests with 99.2% uptime and implementing DRF serializers for seamless data validation.",
+    ],
+    tech: [
+      "FastAPI",
+      "LangGraph",
+      "LangSmith",
+      "Vector DB",
+      "Django REST Framework",
+      "Python",
+      "LLMs",
+    ],
+  },
+  {
     role: "Full-Stack Developer Intern ",
     company: "PINNACLOID",
     location: "Lahore, Pakistan",
@@ -72,13 +93,14 @@ const typeColors = {
   Internship: "bg-emerald-500/10 text-emerald-600 border-emerald-500/30 dark:bg-emerald-500/20 dark:text-emerald-400 dark:border-emerald-500",
   Research: "bg-blue-500/10 text-blue-600 border-blue-500/30 dark:bg-blue-500/20 dark:text-blue-400 dark:border-blue-500",
   Freelance: "bg-purple-500/10 text-purple-600 border-purple-500/30 dark:bg-purple-500/20 dark:text-purple-400 dark:border-purple-500",
+  "Full-time": "bg-indigo-500/10 text-indigo-600 border-indigo-500/30 dark:bg-indigo-500/20 dark:text-indigo-400 dark:border-indigo-500",
 };
 
 const WorkExperience = () => {
   return (
     <div
       id="experience"
-      className="EducationBody flex flex-col justify-center items-center min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-slate-800 dark:text-slate-200 py-20 px-4 md:px-12 transition-colors duration-300"
+      className="EducationBody flex flex-col justify-center items-center min-h-screen w-full relative bg-cover bg-no-repeat bg-fixed text-slate-800 dark:text-slate-200 py-20 px-4 md:px-12 transition-c[...]
     >
       {/* Title */}
       <motion.div
@@ -112,7 +134,7 @@ const WorkExperience = () => {
 
             {/* Card */}
             <div
-              className={`ml-10 md:ml-0 md:w-5/12 bg-white dark:bg-slate-900 shadow-md border border-slate-200 dark:border-slate-800 hover:border-amber-500/40 dark:hover:border-amber-400/40 hover:shadow-xl rounded-xl p-5 backdrop-blur-sm transition-all duration-300 hover:-translate-y-1 ${
+              className={`ml-10 md:ml-0 md:w-5/12 bg-white dark:bg-slate-900 shadow-md border border-slate-200 dark:border-slate-800 hover:border-amber-500/40 dark:hover:border-amber-400/40 hover:shad[...]
                 index % 2 === 0 ? "md:mr-auto md:ml-0" : "md:ml-auto md:mr-0"
               }`}
             >
