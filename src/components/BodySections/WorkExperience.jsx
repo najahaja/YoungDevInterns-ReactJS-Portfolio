@@ -6,7 +6,7 @@ const experiences = [
     role: "Full-Stack Developer Intern ",
     company: "PINNACLOID",
     location: "Lahore, Pakistan",
-    duration: "Aug 2026 – Oct 2026",
+    duration: "Aug 2025 – Oct 2025",
     type: "Internship",
     description: [
       "Build and scale foundational full-stack features using Node.js and React.js to support the integration of LLMs into production environments.",
@@ -26,7 +26,7 @@ const experiences = [
     role: "Machine Learning Intern ",
     company: "ARCH TECHNOLOGIES",
     location: "Remote",
-    duration: "June 2026 – July 2026",
+    duration: "June 2025 – July 2025",
     type: "Internship",
     description: [
       "Integrate LLM technologies by fine-tuning LLaMA 3.2 (3B) using Prompt Engineering and medical chain-of-thought datasets to leverage proprietary healthcare data.",
@@ -35,7 +35,7 @@ const experiences = [
     ],
     tech: [
       "PyTorch",
-      "Hugginf Face",
+      "Hugging Face",
       "NumPy & Pandas",
       "Scikit-learn",
       "Matplotlib & Seaborn",
@@ -49,7 +49,7 @@ const experiences = [
     type: "Internship",
     description: [
       "Build 3+ production-ready web applications leveraging React.js, Redux, and Tailwind CSS to deliver scalable UIs for proprietary data platforms. ",
-      "Collaborate within Agile/SCRUM teams to integrate modular interfaces, ensuring the delivery of high value tools for the non-profit sector and social good. ",
+      "Collaborate within Agile/SCRUM teams to integrate modular interfaces, ensuring the delivery of high-value tools for the non-profit sector and social good. ",
     ],
     tech: ["React.js", "TailwindCSS", "Vite", "Redux", "Context API"],
   },
