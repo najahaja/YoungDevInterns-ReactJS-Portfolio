@@ -122,10 +122,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.6 }}
         >
-          An AI Engineer specializing in Agentic RAG and LLM orchestration for
-          scalable product integration. Proven at optimizing production workflows
-          to reduce latency by 25% while architecting data-intensive systems that
-          leverage proprietary data to drive social good.
+          I am an AI Engineer and Computer Engineering graduate (CGPA: 3.94/4.00) specializing in Agentic AI, Retrieval-Augmented Generation (RAG), and LLM-powered applications.
         </motion.p>
       </motion.div>
     </div>
