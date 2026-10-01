@@ -42,6 +42,10 @@ const Skills = () => {
             <li>GeoPandas / OSMnx</li>
             <li>Scikit-learn</li>
             <li>Pandas, NumPy</li>
+            <li>LLM Fine-Tuning</li>
+            <li>Model Quantization</li>
+            <li>Hugging Face Ecosystem</li>
+            <li>Experiment Tracking</li>
           </ul>
         </motion.div>
         
@@ -64,6 +68,12 @@ const Skills = () => {
             <li>Jupyter Lab</li>
             <li>Google Colab</li>
             <li>Docker</li>
+            <li>vLLM</li>
+            <li>Prometheus & Grafana</li>
+            <li>Locust</li>
+            <li>GitHub Actions</li>
+            <li>Docker Compose</li>
+            <li>Kaggle GPUs / Linux WSL</li>
           </ul>
         </motion.div>
         
@@ -87,6 +97,10 @@ const Skills = () => {
             <li>REST APIs</li>
             <li>Redux</li>
             <li>FastAPI / Flask</li>
+            <li>Streamlit & Plotly</li>
+            <li>Pydantic</li>
+            <li>SQLAlchemy</li>
+            <li>Pytest & Ruff</li>
           </ul>
         </motion.div>
       </div>
