@@ -30,7 +30,7 @@ const About = () => {
             About me:
           </div>
           <div className="about-body-right-content text-justify px-4 md:px-8 font-normal leading-relaxed text-slate-600 dark:text-slate-300">
-            I am a Mission-driven AI Engineer and Computer Engineering student (CGPA: 3.93) specializing in Agentic Orchestration and RAG pipelines. I focus on bridging the gap between AI research and production, with a proven ability to reduce system latency by 25% in live environments.<br /><br />
+            I am a Mission-driven AI Engineer and Computer Engineering student (CGPA: 3.94) specializing in Agentic Orchestration and RAG pipelines. I focus on bridging the gap between AI research and production, with a proven ability to reduce system latency by 25% in live environments.<br /><br />
             Beyond model development, I leverage my full-stack expertise to build data-intensive interfaces for complex AI workflows. Whether architecting multi-agent simulations for disaster response or fine-tuning medical LLMs, I am dedicated to creating impactful, user-centric solutions.
           </div>
           <Link to="/resume">
