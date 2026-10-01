@@ -92,7 +92,7 @@ const Education = () => {
                     <div className="text-lg md:text-xl font-semibold text-amber-600 dark:text-amber-400">
                       Grades Achieved:
                     </div>
-                    <div className="text-base md:text-lg text-slate-700 dark:text-slate-200 font-bold">3.93/4.00</div>
+                    <div className="text-base md:text-lg text-slate-700 dark:text-slate-200 font-bold">3.94/4.00</div>
                   </div>
                 </div>
               </motion.div>
