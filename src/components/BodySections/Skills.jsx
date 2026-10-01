@@ -61,12 +61,11 @@ const Skills = () => {
           </span>
           <ul className="flex flex-col gap-1 font-semibold text-base text-slate-600 dark:text-slate-300 mt-2">
             <li>Git, GitHub</li>
-            <li>Vector Databases (Pinecone/Chroma)</li>
+            <li>Vector Databases</li>
             <li>Visual Studio Code</li>
             <li>AWS (AI Services)</li>
             <li>Snowflake</li>
             <li>Jupyter Lab</li>
-            <li>Google Colab</li>
             <li>Docker</li>
             <li>vLLM</li>
             <li>Prometheus & Grafana</li>
@@ -96,7 +95,7 @@ const Skills = () => {
             <li>SQL</li>
             <li>REST APIs</li>
             <li>Redux</li>
-            <li>FastAPI / Flask</li>
+            <li>FastAPI </li>
             <li>Streamlit & Plotly</li>
             <li>Pydantic</li>
             <li>SQLAlchemy</li>
