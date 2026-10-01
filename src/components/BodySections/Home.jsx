@@ -122,7 +122,7 @@ const Home = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.9, duration: 0.6 }}
         >
-          I am an AI Engineer and Computer Engineering graduate (CGPA: 3.94/4.00) specializing in Agentic AI, Retrieval-Augmented Generation (RAG), and LLM-powered applications.
+          I am an AI Engineer and Computer Engineering graduate (CGPA: 3.94/4.00) specializing in Agentic AI, Retrieval-Augmented Generation (RAG), and LLM-powered applications. I build intelligent systems that combine large language models, automation workflows, and scalable software architectures to solve real-world problems.
         </motion.p>
       </motion.div>
     </div>
