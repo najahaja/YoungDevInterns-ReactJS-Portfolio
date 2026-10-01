@@ -87,7 +87,7 @@ const Projects = () => {
       demo: "https://ft-bench.streamlit.app/", 
       source: "https://github.com/najahaja/ft-bench", 
       lang: "Python,SQL,YAML,JSON,Markdown,Dockerfile", 
-      tools: "PyTorch,PEFT,TRL,vLLM,FastAPI,Prometheus,Grafana,Streamlit,Plotly,Pandas,NumPy,Docker,Git,Antigravity IDE"
+      tools: "PyTorch,PEFT,TRL,vLLM,FastAPI,Prometheus,Plotly,Docker,Git"
     }
   ];
 
