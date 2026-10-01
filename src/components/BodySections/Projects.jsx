@@ -9,6 +9,7 @@ import video4 from "../../../src/assets/Images/TaskB1.mp4";
 import video5 from "../../../src/assets/Images/Sentiment Analysis.mp4"
 import video6 from "../../../src/assets/Images/Travel Planner Agent.mp4"
 import video7 from "../../../src/assets/Images/Travel_Planner_Agentic_AI.mp4"
+import video8 from "../../../src/assets/Images/ft-bench.mp4"
 
 const Projects = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -79,6 +80,14 @@ const Projects = () => {
       source: "https://github.com/najahaja/AI-Travel-Planner-Agent-SaaS", 
       lang: "Python,React", 
       tools: "LangGraph, LangChain, Google Place API, Antigravity IDE"
+    },
+    { 
+      src: video8, 
+      title: "FT-Bench: End-to-End LLM Fine-Tuning & Quantization Benchmark", 
+      demo: "https://ft-bench.streamlit.app/", 
+      source: "https://github.com/najahaja/ft-bench", 
+      lang: "Python,SQL,YAML,JSON,Markdown,Dockerfile", 
+      tools: "PyTorch,PEFT,TRL,vLLM,FastAPI,Prometheus,Grafana,Streamlit,Plotly,Pandas,NumPy,Docker,Git,Antigravity IDE"
     }
   ];
 
