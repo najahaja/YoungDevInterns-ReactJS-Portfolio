@@ -6,7 +6,7 @@ const experiences = [
     role: "AI Engineer",
     company: "Artificizen",
     location: "Onsite",
-    duration: "Apr 2026 – Present",
+    duration: "Jan 2026 – July 2026",
     type: "Full-time",
     description: [
       "Designed and deployed 5+ production-grade AI agents using LangGraph and FastAPI, reducing development time by 40% through modular, state-machine-based architectures.",
