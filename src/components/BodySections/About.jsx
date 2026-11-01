@@ -30,9 +30,9 @@ const About = () => {
             About me:
           </div>
           <div className="about-body-right-content text-justify px-4 md:px-8 font-normal leading-relaxed text-slate-600 dark:text-slate-300">
-           My work focuses on bridging the gap between AI research and real-world deployment by designing intelligent systems that combine large language models, retrieval pipelines, automation workflows, and scalable backend architectures.<br/><br/>
-           I have experience building AI-driven applications including conversational agents, voice AI systems, and LLM fine-tuning and benchmarking pipelines. Alongside AI development, my full-stack engineering background allows me to create complete solutions from model integration and APIs to user-facing applications.
-           I am passionate about developing practical AI systems that solve meaningful problems through reliable, efficient, and user-centric technology.
+            I am a Computer Engineering graduate (Gold Medalist & Rank #1 in Batch, 3.94/4.00 CGPA)[cite: 1, 2, 3] specializing in AI platform engineering, stateful multi-agent systems, and production MLOps.<br/><br/>
+            Across three engineering internships—including building real-time voice AI agents handling 200+ daily calls with LangGraph and LiveKit at Artificizen[cite: 1, 3]—I bridge the gap between frontier models and fault-tolerant production infrastructure. My technical stack centers on Python, FastAPI, vLLM inference optimization, QLoRA/AWQ quantization, and rigorous CI/CD test automation.<br/><br/>
+            I am passionate about building reliable, production-grade agentic architectures and automated systems that solve complex, real-world problems.
           </div>
           <Link to="/resume">
             <motion.div
