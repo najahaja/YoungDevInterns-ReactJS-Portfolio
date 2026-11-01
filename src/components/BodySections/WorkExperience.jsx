@@ -73,20 +73,8 @@ const experiences = [
       "Collaborate within Agile/SCRUM teams to integrate modular interfaces, ensuring the delivery of high-value tools for the non-profit sector and social good. ",
     ],
     tech: ["React.js", "TailwindCSS", "Vite", "Redux", "Context API"],
-  },
-  {
-    role: "React Developer (Freelance)",
-    company: "Self-Employed",
-    location: "Remote",
-    duration: "2026 – present",
-    type: "Freelance",
-    description: [
-      "Developed responsive React web applications for clients using Vite, Redux, and Tailwind CSS.",
-      "Integrated REST APIs and built dynamic dashboards with real-time data visualization.",
-      "Delivered 3+ projects on time with high client satisfaction.",
-    ],
-    tech: ["React", "Vite", "Redux", "Tailwind CSS", "REST APIs"],
-  },
+  }
+  
 ];
 
 const typeColors = {
