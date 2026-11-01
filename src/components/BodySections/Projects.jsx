@@ -25,53 +25,12 @@ const Projects = () => {
 
   const projects = [
     { 
-      src: video1, 
-      title: "Connect Four Game Using C++ with SFML Graphics", 
-      demo: "https://github.com/najahaja/Connect-four", 
-      source: "https://github.com/najahaja/Connect-four", 
-      lang: "C++", 
-      tools: "DevC++, GCC, Git, SFML" 
-    },
-    { 
-      src: video2, 
-      title: "CartApp with React and Vite", 
-      demo: "https://main--addcartap.netlify.app/", 
-      source: "https://github.com/najahaja/addcart", 
-      lang: "JavaScript, CSS, HTML", 
-      tools: "React, Vite, Webpack, Redux, React Router, Axios/Fetch" 
-    },
-   
-    { 
-      src: video3, 
-      title: "Inference-and-Evaluation-of-MedSAM-2-on-Brain-Tumor-Segmentation-BRATS-2019", 
-      demo: "https://github.com/najahaja/Inference-and-Evaluation-of-MedSAM-2-on-Brain-Tu-mor-Segmentation-BRATS-2019-", 
-      source: "https://github.com/najahaja/Inference-and-Evaluation-of-MedSAM-2-on-Brain-Tu-mor-Segmentation-BRATS-2019-", 
-      lang: "Python", 
-      tools: "Jupyter Notebook, Pytorch, Numpy, matplotlib"
-    },
-    { 
-      src: video4, 
-      title: "TumorDetection", 
-      demo: "https://github.com/najahaja/TumorDetection", 
-      source: "https://github.com/najahaja/TumorDetection", 
-      lang: "Python", 
-      tools: "Jupyter Notebook, Pytorch, Numpy, matplotlib,Streamlit"
-    },
-    { 
-      src: video5, 
-      title: "Sentiment Analysis", 
-      demo: "https://huggingface.co/spaces/najahaja/Sentiment-Analysis", 
-      source: "https://github.com/najahaja/Sentiment-Analysis", 
-      lang: "Python", 
-      tools: "Huggingface, BERT, Bi-LSTM, TF-IDF + Logistic Regression, Scikit-learn,PyTorch"
-    },
-    { 
-      src: video6, 
-      title: "Travel Planner Agentic AI", 
-      demo: "https://travel-planner-agent-1.streamlit.app/", 
-      source: "https://github.com/najahaja/AI-Travel-Planner-Agent-SaaS", 
-      lang: "Python,React", 
-      tools: "LangGraph, LangChain, Google Place API, Antigravity IDE"
+      src: video8, 
+      title: "MLOps-live", 
+      demo: "https://mlops-live.streamlit.app/", 
+      source: "https://github.com/najahaja/mlops-live", 
+      lang: "Python, SQL, YAML, JSON, Markdown", 
+      tools: "MLflow,scikit-learn, FastAPI, Git"
     },
     { 
       src: video7, 
@@ -82,12 +41,52 @@ const Projects = () => {
       tools: "PyTorch,PEFT,TRL,vLLM,FastAPI,Prometheus,Plotly,Docker,Git"
     },
     { 
-      src: video8, 
-      title: "MLOps-live", 
-      demo: "https://mlops-live.streamlit.app/", 
-      source: "https://github.com/najahaja/mlops-live", 
-      lang: "Python, SQL, YAML, JSON, Markdown", 
-      tools: "MLflow,scikit-learn, FastAPI, Git"
+      src: video6, 
+      title: "Travel Planner Agentic AI", 
+      demo: "https://travel-planner-agent-1.streamlit.app/", 
+      source: "https://github.com/najahaja/AI-Travel-Planner-Agent-SaaS", 
+      lang: "Python,React", 
+      tools: "LangGraph, LangChain, Google Place API, Antigravity IDE"
+    },
+    { 
+      src: video5, 
+      title: "Sentiment Analysis", 
+      demo: "https://huggingface.co/spaces/najahaja/Sentiment-Analysis", 
+      source: "https://github.com/najahaja/Sentiment-Analysis", 
+      lang: "Python", 
+      tools: "Huggingface, BERT, Bi-LSTM, TF-IDF + Logistic Regression, Scikit-learn,PyTorch"
+    },
+    { 
+      src: video4, 
+      title: "TumorDetection", 
+      demo: "https://github.com/najahaja/TumorDetection", 
+      source: "https://github.com/najahaja/TumorDetection", 
+      lang: "Python", 
+      tools: "Jupyter Notebook, Pytorch, Numpy, matplotlib,Streamlit"
+    },
+    { 
+      src: video3, 
+      title: "Inference-and-Evaluation-of-MedSAM-2-on-Brain-Tumor-Segmentation-BRATS-2019", 
+      demo: "https://github.com/najahaja/Inference-and-Evaluation-of-MedSAM-2-on-Brain-Tu-mor-Segmentation-BRATS-2019-", 
+      source: "https://github.com/najahaja/Inference-and-Evaluation-of-MedSAM-2-on-Brain-Tu-mor-Segmentation-BRATS-2019-", 
+      lang: "Python", 
+      tools: "Jupyter Notebook, Pytorch, Numpy, matplotlib"
+    },
+    { 
+      src: video2, 
+      title: "CartApp with React and Vite", 
+      demo: "https://main--addcartap.netlify.app/", 
+      source: "https://github.com/najahaja/addcart", 
+      lang: "JavaScript, CSS, HTML", 
+      tools: "React, Vite, Webpack, Redux, React Router, Axios/Fetch" 
+    },
+    { 
+      src: video1, 
+      title: "Connect Four Game Using C++ with SFML Graphics", 
+      demo: "https://github.com/najahaja/Connect-four", 
+      source: "https://github.com/najahaja/Connect-four", 
+      lang: "C++", 
+      tools: "DevC++, GCC, Git, SFML" 
     }
   ];
 
