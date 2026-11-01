@@ -64,7 +64,7 @@ const Projects = () => {
       source: "https://github.com/najahaja/Sentiment-Analysis", 
       lang: "Python", 
       tools: "Huggingface, BERT, Bi-LSTM, TF-IDF + Logistic Regression, Scikit-learn,PyTorch"
-    }
+    },
     { 
       src: video6, 
       title: "Travel Planner Agentic AI", 
