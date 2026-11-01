@@ -68,7 +68,7 @@ const Projects = () => {
     { 
       src: video6, 
       title: "Travel Planner Agentic AI", 
-      demo: "https://github.com/najahaja/AI-Travel-Planner-Agent-SaaS", 
+      demo: "https://travel-planner-agent-1.streamlit.app/", 
       source: "https://github.com/najahaja/AI-Travel-Planner-Agent-SaaS", 
       lang: "Python,React", 
       tools: "LangGraph, LangChain, Google Place API, Antigravity IDE"
