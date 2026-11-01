@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 
 const roles = [
   "AI Engineer",
-  "ML Engineer",
-  "React Developer",
+  "Generative AI Engineer",
+  "Applied AI Engineer",
+  "Machine Learning Engineer",
+  "MLOps Engineer",
   "Full-Stack Developer",
-  "LLM Specialist",
-  "NLP Engineer",
 ];
 
 const TypewriterText = () => {
