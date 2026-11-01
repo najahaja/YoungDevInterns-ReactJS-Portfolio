@@ -7,10 +7,9 @@ import video2 from "../../../src/assets/Images/Food Cart.mp4";
 import video3 from "../../../src/assets/Images/Inference-and-Evaluation-of-MedSAM-2-on-Brain-Tumor-Segmentation-BRATS-2019.mp4"
 import video4 from "../../../src/assets/Images/TaskB1.mp4";
 import video5 from "../../../src/assets/Images/Sentiment Analysis.mp4"
-import video6 from "../../../src/assets/Images/Travel Planner Agent.mp4"
-import video7 from "../../../src/assets/Images/Travel_Planner_Agentic_AI.mp4"
-import video8 from "../../../src/assets/Images/ft-bench.mp4"
-import video9 from "../../../src/assets/Images/mlops-live.mp4"
+import video6 from "../../../src/assets/Images/Travel_Planner_Agentic_AI.mp4"
+import video7 from "../../../src/assets/Images/ft-bench.mp4"
+import video8 from "../../../src/assets/Images/mlops-live.mp4"
 
 const Projects = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -65,17 +64,9 @@ const Projects = () => {
       source: "https://github.com/najahaja/Sentiment-Analysis", 
       lang: "Python", 
       tools: "Huggingface, BERT, Bi-LSTM, TF-IDF + Logistic Regression, Scikit-learn,PyTorch"
-    },
+    }
     { 
       src: video6, 
-      title: "Travel Planner Agent", 
-      demo: "https://travel-planner-agent-1.streamlit.app/", 
-      source: "https://github.com/najahaja/Travel-Planner-Agent", 
-      lang: "Python", 
-      tools: "LangGraph, LangChain, Tavily Search API, Antigravity IDE"
-    },
-    { 
-      src: video7, 
       title: "Travel Planner Agentic AI", 
       demo: "https://github.com/najahaja/AI-Travel-Planner-Agent-SaaS", 
       source: "https://github.com/najahaja/AI-Travel-Planner-Agent-SaaS", 
@@ -83,7 +74,7 @@ const Projects = () => {
       tools: "LangGraph, LangChain, Google Place API, Antigravity IDE"
     },
     { 
-      src: video8, 
+      src: video7, 
       title: "FT-Bench: End-to-End LLM Fine-Tuning & Quantization Benchmark", 
       demo: "https://ft-bench.streamlit.app/", 
       source: "https://github.com/najahaja/ft-bench", 
@@ -91,7 +82,7 @@ const Projects = () => {
       tools: "PyTorch,PEFT,TRL,vLLM,FastAPI,Prometheus,Plotly,Docker,Git"
     },
     { 
-      src: video9, 
+      src: video8, 
       title: "MLOps-live", 
       demo: "https://mlops-live.streamlit.app/", 
       source: "https://github.com/najahaja/mlops-live", 
