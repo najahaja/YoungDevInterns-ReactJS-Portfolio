@@ -1,9 +1,10 @@
 {
-  "name": "portfolio-react",
+  "name": "ahamed-najah-portfolio",
   "private": true,
-  "version": "0.0.0",
+  "version": "2.0.0",
+  "description": "Professional portfolio website for Ahamed Najah — AI Engineer, LLM specialist, and full-stack developer.",
   "type": "module",
-  "homepage": "https://najahaja.github.io/YoungDevInterns-ReactJS-Portfolio/",
+  "homepage": "https://najahaja.github.io/Ahamed-Najah-Portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

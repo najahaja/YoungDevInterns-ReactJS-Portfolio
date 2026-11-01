@@ -34,28 +34,26 @@ const Navbar = () => {
           : "bg-transparent"
       } text-slate-800 dark:text-slate-200`}
     >
-      {/* Logo */}
-      <div className="text-3xl flex gap-2 items-center text-amber-500 dark:text-amber-400">
-        <FontAwesomeIcon
-          icon={faUserSecret}
-          className="icn hover:border-b-4 border-amber-500 dark:border-amber-400 rounded-md transition-all duration-300"
-        />
-        <span className="font-bold font-dancingScript">{"<Najah/>"}</span>
+      <div className="flex items-center gap-3 text-amber-500 dark:text-amber-400">
+        <div className="flex h-10 w-10 items-center justify-center rounded-full border border-amber-500/50 bg-amber-500/10 font-bold text-sm text-amber-600 dark:text-amber-300">
+          AN
+        </div>
+        <span className="text-lg font-semibold tracking-[0.12em] text-slate-800 dark:text-slate-200 md:text-xl">
+          Ahamed Najah
+        </span>
       </div>
 
-      {/* Desktop Menu */}
       <div className="hidden md:flex gap-5 text-sm font-semibold items-center">
         {navLinks.map((link) => (
           <a
             key={link.label}
             href={link.href}
-            className="cursor-pointer hover:text-amber-500 dark:hover:text-amber-400 relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-[-4px] after:left-0 after:bg-amber-500 dark:after:bg-amber-400 after:origin-bottom-right after:transition-transform after:duration-300 hover:after:scale-x-100 hover:after:origin-bottom-left"
+            className="cursor-pointer hover:text-amber-500 dark:hover:text-amber-400 relative after:content-[''] after:absolute after:w-full after:scale-x-0 after:h-0.5 after:bottom-[-4px] after:left-0 after:bg-amber-500 dark:after:bg-amber-400 after:origin-center after:transition-transform after:duration-300 hover:after:scale-x-100"
           >
             {link.label}
           </a>
         ))}
 
-        {/* Dark/Light Toggle */}
         <button
           type="button"
           onClick={(e) => {
@@ -69,7 +67,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile: Toggle + Dark mode */}
       <div className="md:hidden flex items-center gap-3">
         <button
           type="button"
@@ -86,7 +83,6 @@ const Navbar = () => {
         </button>
       </div>
 
-      {/* Mobile Slide Menu */}
       <div
         className={`absolute top-0 right-0 bg-white/95 dark:bg-slate-900/95 backdrop-blur-md text-slate-800 dark:text-slate-200 transform transition-transform duration-300 ease-in-out ${
           isOpen ? "translate-x-0" : "translate-x-full"
