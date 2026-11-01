@@ -10,6 +10,7 @@ import video5 from "../../../src/assets/Images/Sentiment Analysis.mp4"
 import video6 from "../../../src/assets/Images/Travel Planner Agent.mp4"
 import video7 from "../../../src/assets/Images/Travel_Planner_Agentic_AI.mp4"
 import video8 from "../../../src/assets/Images/ft-bench.mp4"
+import video9 from "../../../src/assets/Images/mlops-live.mp4"
 
 const Projects = () => {
   const [hoveredIndex, setHoveredIndex] = useState(null);
@@ -88,6 +89,14 @@ const Projects = () => {
       source: "https://github.com/najahaja/ft-bench", 
       lang: "Python,SQL,YAML,JSON,Markdown,Dockerfile", 
       tools: "PyTorch,PEFT,TRL,vLLM,FastAPI,Prometheus,Plotly,Docker,Git"
+    },
+    { 
+      src: video9, 
+      title: "MLOps-live", 
+      demo: "https://mlops-live.streamlit.app/", 
+      source: "https://github.com/najahaja/mlops-live", 
+      lang: "Python, SQL, YAML, JSON, Markdown", 
+      tools: "MLflow,scikit-learn, FastAPI, Git"
     }
   ];
 
