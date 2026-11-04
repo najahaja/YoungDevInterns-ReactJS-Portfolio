@@ -9,9 +9,9 @@ const experiences = [
     duration: "Jan 2026 – July 2026",
     type: "Full-time",
     description: [
-      "Designed and deployed 5+ production-grade AI agents using LangGraph and FastAPI, reducing development time by 40% through modular, state-machine-based architectures.",
-      "Built RAG pipelines integrating LangSmith, Vector Databases, and LLMs, improving retrieval accuracy by 35% for document-based Q&A systems.",
-      "Developed FastAPI & Django REST Framework backends, handling 500+ concurrent requests with 99.2% uptime and implementing DRF serializers for seamless data validation.",
+      "Designed and deployed real-time AI voice agents handling 200+ calls per day by orchestrating Gemini and Grok LLMs with LangChain and LangGraph across Retell AI, Dograh (Docker), and LiveKit.",
+      "Engineered FastAPI microservices on MySQL and PostgreSQL (Neon) with FAISS and ChromaDB vector search, achieving sub-10ms retrieval latency during live audio streams.",
+      "Reduced failed multi-agent workflow runs by 5% and aligned client stakeholders through comprehensive system architecture documentation.",
     ],
     tech: [
       "FastAPI",
@@ -50,9 +50,9 @@ const experiences = [
     duration: "June 2025 – July 2025",
     type: "Internship",
     description: [
-      "Integrate LLM technologies by fine-tuning LLaMA 3.2 (3B) using Prompt Engineering and medical chain-of-thought datasets to leverage proprietary healthcare data.",
-      "Deploy brain tumor segmentation systems using YOLO 11 and SAM2, achieving 89.5% accuracy through optimized MLOps principles and model evaluation. ",
-      "Build Agentic Workflows for medical data processing, implementing voice cloning pipelines and Vector databases for efficient information retrieval. ",
+      "Adapted Llama-3.2-3B to domain-specific healthcare requirements using prompt engineering and medical Chain-of-Thought (CoT) datasets for proprietary data processing.",
+      "Trained and evaluated a YOLO11 brain tumor detection pipeline on a 5-class Roboflow dataset, achieving 87.2% mAP@0.5 on held-out test data.",
+      "Developed agentic workflows for automated multimodal medical data processing, integrating vector-database retrieval and voice-cloning services.",
     ],
     tech: [
       "PyTorch",
