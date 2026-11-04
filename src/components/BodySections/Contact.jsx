@@ -145,7 +145,7 @@ const Contact = () => {
       <div className="footer w-full py-6 bg-slate-100 dark:bg-black/30 border-t border-slate-200 dark:border-slate-800 flex flex-col items-center justify-center text-slate-500 dark:text-slate-400 text-sm gap-1 transition-colors duration-300 mt-auto">
         <span>A Vite + TailwindCSS + React App</span>
         <span className="font-semibold text-slate-700 dark:text-slate-300">Designed and Developed by Ahamed Najah</span>
-        <span>All Rights Reserved @ 2026</span>
+        <span>All Rights Reserved &copy; {new Date().getFullYear()}</span>
       </div>
     </div>
   );
