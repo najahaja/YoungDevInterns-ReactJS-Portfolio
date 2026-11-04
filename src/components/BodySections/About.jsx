@@ -31,8 +31,8 @@ const About = () => {
           </div>
           <div className="about-body-right-content text-justify px-4 md:px-8 font-normal leading-relaxed text-slate-600 dark:text-slate-300">
             I am a Computer Engineering graduate (Gold Medalist & Rank #1 in Batch, 3.94/4.00 CGPA) specializing in AI platform engineering, stateful multi-agent systems, and production MLOps.<br/><br/>
-            Across three engineering internships—including building real-time voice AI agents handling 200+ daily calls with LangGraph and LiveKit at Artificizen-I bridge the gap between frontier models and fault-tolerant production infrastructure. My technical stack centers on Python, FastAPI, vLLM inference optimization, QLoRA/AWQ quantization, and rigorous CI/CD test automation.<br/><br/>
-            I am passionate about building reliable, production-grade agentic architectures and automated systems that solve complex, real-world problems.
+            Across three engineering internships, including building real-time voice AI agents handling 200+ daily calls with LangGraph and LiveKit at Artificizen, I bridge the gap between frontier models and fault-tolerant production infrastructure. My technical stack centers on Python, FastAPI, vLLM inference optimization, QLoRA/AWQ quantization, and rigorous CI/CD test automation.<br/><br/>
+            I am passionate about building reliable, production-grade agentic architectures and automated systems that solve complex and real-world problems. I am currently focused on scaling high-performance AI applications, and I thrive on turning cutting-edge research into dependable software.
           </div>
           <Link to="/resume">
             <motion.div
